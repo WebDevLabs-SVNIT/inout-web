@@ -78,10 +78,10 @@ h2 {
 	font-size: 36px;
 	line-height: 39px;
 	padding-bottom: 0;
-	font-weight: 300;
+	font-weight: 400;
 	text-transform: uppercase;
 	margin: 0;
-	color: #e51c23;
+	color: #ffffff;
 }
 
 h3 {
@@ -165,7 +165,7 @@ hr {
 .bannerText h2 {
 	font-size: 34px;
 	text-transform: none;
-	color: #1976D2;
+	color: #FF8C00;
 	padding: 20px;
 }
 
@@ -287,7 +287,7 @@ a {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
 	/*background: #455A64;*/
-	background: #1976D2;
+	background: #3F2576;
 	padding: 15px 22px;
 	display: inline-block;
 	color: white;
@@ -351,7 +351,7 @@ text-align: center;
 }
 
 .faq h2 {
-	color: white;
+	color: #FF5722;
 }
 
 .faq .heading {
@@ -516,26 +516,40 @@ border-width: 180px 50vw 0 50vw;
 }
 
 
-.indigo-main-tri-left{border-color:transparent transparent transparent #303f9f;}
-.indigo-main-tri-right{border-color: transparent transparent #303f9f transparent;}
-.indigo-main-tri{border-color: #303f9f transparent transparent transparent;}
+.orange-main-tri-left{border-color:transparent transparent transparent #FF5722;}
+.orange-main-tri-right{border-color: transparent transparent #FF5722 transparent;}
+.orange-main-tri{border-color: #FF5722 transparent transparent transparent;}
 
-.indigo-light-tri-left{border-color: transparent transparent transparent #3F51B5 ;}
-.indigo-light-tri-right{border-color: transparent transparent  #3F51B5 transparent;}
-.indigo-light-tri{border-color: #3F51B5 transparent transparent transparent;}
+.orange-light-tri-left{border-color: transparent transparent transparent #F57C00 ;}
+.orange-light-tri-right{border-color: transparent transparent  #F57C00 transparent;}
+.orange-light-tri{border-color: #F57C00 transparent transparent transparent;}
 
-.grey-lighter-tri-left{border-color: transparent transparent transparent #C5CAE9 ;}
-.grey-lighter-tri-right{border-color: transparent transparent  #C5CAE9 transparent;}
-.grey-lighter-tri{border-color: #C5CAE9 transparent transparent transparent;}
+.orange-lighter-tri-left{border-color: transparent transparent transparent #C5CAE9 ;}
+.orange-lighter-tri-right{border-color: transparent transparent  #C5CAE9 transparent;}
+.orange-lighter-tri{border-color: #C5CAE9 transparent transparent transparent;}
 
 .white-tri{border-color: #FFFFFF transparent transparent transparent;}
 
-.indigo-main-bg{ background: #303f9f;}
-.indigo-light-bg{ background: #3F51B5;}
+.orange-main-bg{ background: #FF5722;}
+.orange-light-bg{ background: #F57C00;}
+.orange-lighter-bg{ background: #C5CAE9;}
+.orange-grad-bg{background: #F57C00;
+background: -moz-linear-gradient(top, #F57C00 0%, #FF5722 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, #F57C00), color-stop(100%, #FF5722));
+background: -webkit-linear-gradient(top, #F57C00 0%, #FF5722 100%);
+background: -o-linear-gradient(top, #F57C00 0%, #FF5722 100%);
+background: -ms-linear-gradient(top, #F57C00 0%, #FF5722 100%);
+background: linear-gradient(top bottom, #F57C00 0%, #FF5722 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F57C00', endColorstr='#FF5722', GradientType=0 );}
+
 
 /*custom bootstrap classes*/
 .navbar{
 	    background-color: #FFFFFF;
     border-color: #FFFFFF;
+}
+.navbar-default .navbar-nav>li>a{
+    color: #3F2576;
+    font-weight: 600;
 }
 .no-padding{ padding: 0 0 0 0;}
