@@ -427,6 +427,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FF5722', end
 
 .footer {
 	background-color: #54585A;
+
 }
 
 .footer .container {
@@ -617,3 +618,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F57C00', end
 -webkit-filter: drop-shadow(0px -5px 2px rgba(0,0,0,0.5));
 	filter: url(shadow.svg#drop-shadow);
 	}
+
+.logo, .logo-img{
+	 display: none;
+	 width: 100px
+}
+.register-menu{
+	display: none;
+	/*width: 120px;*/
+	padding: 10px 13px;
+	margin-top: 5px;
+}
