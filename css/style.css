@@ -540,7 +540,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FF5722', end
 	width: 0;
 	height: 0;
 	border-style: solid;
-	border-width: 180px 0 0 51vw;
+	border-width: 100px 0 0 51vw;
 	/*border-color: transparent transparent transparent #007bff;*/
 
 }
@@ -548,7 +548,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FF5722', end
 	width: 0;
 	height: 0;
 	border-style: solid;
-	border-width: 0 0 180px 51vw;
+	border-width: 0 0 100px 51vw;
 	/*border-color: transparent transparent #007bff transparent;*/
 }
 
@@ -557,7 +557,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FF5722', end
   width: 0;
 height: 0;
 border-style: solid;
-border-width: 180px 50vw 0 50vw;
+border-width: 100px 50vw 0 50vw;
 
 }
 
