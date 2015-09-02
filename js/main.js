@@ -30,10 +30,7 @@ function scrollToAnchor(aid){
     $('html,body').animate({scrollTop: $(aid).offset().top - 60},'slow');
 }
 
-$(document).ready(function() {
-  $('#particles-js').particleground({
-    dotColor: '#5cbdaa',
-    lineColor: '#5cbdaa'
-  });
-  
+$(".nav a").on("click", function(){
+   $(".nav").find(".active").removeClass("active");
+   $(this).parent().addClass("active");
 });
