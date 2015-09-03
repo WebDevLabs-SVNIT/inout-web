@@ -487,18 +487,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FF5722', end
 	}
 }
 
-#particles-js
- {
-  /*background: #0D3A58;*/
-  background: #FFFFFF;
-  position: fixed;
-  z-index: -1;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  overflow: hidden;
-}
 .jumbo {padding: 1% 8% 0 8%;
   text-align: justify;
   line-height: 27px;}
@@ -603,22 +591,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F57C00', end
 	margin-left: 10%;
 	margin-right: 10%;
 }
-.shadow{
-/*	-webkit-box-shadow: 5px 5px 22px 0px rgba(114,114,114,1);
-	-moz-box-shadow: 5px 5px 22px 0px rgba(114,114,114,1);
-	box-shadow: 5px 5px 22px 0px rgba(114,114,114,1);
-*/
--webkit-filter: drop-shadow(5px 5px 2px rgba(0,0,0,0.5));
-	filter: url(shadow.svg#drop-shadow);
-	}
-.shadow-up{
-/*	-webkit-box-shadow: 5px 5px 22px 0px rgba(114,114,114,1);
-	-moz-box-shadow: 5px 5px 22px 0px rgba(114,114,114,1);
-	box-shadow: 5px 5px 22px 0px rgba(114,114,114,1);
-*/
--webkit-filter: drop-shadow(0px -5px 2px rgba(0,0,0,0.5));
-	filter: url(shadow.svg#drop-shadow);
-	}
 
 .logo, .logo-img{
 	 display: none;
@@ -650,10 +622,3 @@ img.bg {
 				left: 50%;
 				margin-left: -512px; }
 		}
-/*html{
-	background: url(../images/Cover.png) no-repeat center center fixed;
-	  -webkit-background-size: cover;
-	  -moz-background-size: cover;
-	  -o-background-size: cover;
-	  background-size: cover;
-}*/
